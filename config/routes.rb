@@ -1,4 +1,9 @@
 MyCatarse::Application.routes.draw do
+
+  mount Catarse::Core::Engine, :at => '/'
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
