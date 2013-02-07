@@ -68,7 +68,6 @@ PATH
       omniauth-openid (~> 1.0.1)
       omniauth-twitter (~> 0.0.12)
       omniauth-yahoo (~> 0.0.4)
-      on_the_spot
       pg
       pg_search
       postgres-copy
@@ -240,7 +239,6 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.6)
-    json_pure (1.7.6)
     jwt (0.1.5)
       multi_json (>= 1.0)
     kaminari (0.14.1)
@@ -295,8 +293,6 @@ GEM
       omniauth-oauth (~> 1.0)
     omniauth-yahoo (0.0.4)
       omniauth-oauth (~> 1.0)
-    on_the_spot (1.0.1)
-      json_pure (>= 1.4.6)
     orm_adapter (0.4.0)
     pg (0.14.1)
     pg_search (0.5.7)
@@ -412,6 +408,8 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
+    turbolinks (1.0.0)
+      coffee-rails
     tzinfo (0.3.35)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
@@ -442,5 +440,6 @@ DEPENDENCIES
   rails (= 3.2.11)
   sass-rails (~> 3.2.5)
   thin
+  turbolinks
   uglifier (>= 1.0.3)
   validation_reflection!

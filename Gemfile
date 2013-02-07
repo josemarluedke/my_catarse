@@ -14,6 +14,8 @@ gem 'validation_reflection', git: 'git://github.com/ncri/validation_reflection.g
 # Server
 gem 'thin'
 
+gem 'turbolinks'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.5'
   gem 'coffee-rails', '~> 3.2.2'
